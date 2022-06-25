@@ -1,2 +1,2 @@
 # lonsdalesystems
-[Testing Requirements](testing_requirements.htm)
+[Testing Requirements](../testing_requirements.htm)
