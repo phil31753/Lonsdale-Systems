@@ -1,4 +1,3 @@
-
 ### Essential Techniques for Agile and Waterfall Teams
 
 ## Course Overview
