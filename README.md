@@ -1,2 +1,1 @@
-# lonsdalesystems
-[Testing Requirements](../testing_requirements.htm)
+# Lonsdale Systems Course Outlines
