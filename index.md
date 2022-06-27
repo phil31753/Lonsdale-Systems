@@ -1,3 +1,4 @@
 # Course Outlines
 
-[Testing Requirements - Essential Techniques for Agile and Waterfall teams](Testing%20Requirements)
+## Software Testing
+- [Testing Requirements - Essential Techniques for Agile and Waterfall teams](Testing%20Requirements)
