@@ -6,14 +6,14 @@
 
 ### Agile
 
--   [Agile Business Analysis]()
+-   [Agile Business Analysis
 -   [Discovering Requirements]()
 
 ### Traditional
 
--   [Business Analysis Essentials]()
--   [Analysing Business Needs](http://lonsdalesystems.com/site/course/outline_show.php?name=analysing_business_needs&print=1)
--   [Mastering Use Cases and Scenarios](http://lonsdalesystems.com/site/course/outline_show.php?name=mastering_use_cases&print=1)
+-   [Business Analysis Essentials
+-   [Analysing Business Needs
+-   [Mastering Use Cases and Scenarios
 -   [Dimensional Modelling](http://lonsdalesystems.com/site/course/dimensional_modelling.php?print=1)
 -   [Requirements Analysis](http://lonsdalesystems.com/site/course/requirements_analysis.php?print=1)
 
@@ -21,7 +21,9 @@
 
 -   [Introduction to Scrum](http://lonsdalesystems.com/site/course/outline_show.php?name=scrum_overview&print=1)
 -   [Information Gathering Techniques](http://lonsdalesystems.com/site/course/information_gathering_techniques.php?print=1)
--   Sparx Systems [Enterprise Architect for Business Analysts](http://lonsdalesystems.com/site/course/ea_for_business_analysts.php?print=1)## Software Testing Courses 
+-   Sparx Systems [Enterprise Architect for Business Analysts](http://lonsdalesystems.com/site/course/ea_for_business_analysts.php?print=1)
+-   
+-   ## Software Testing Courses 
 
 ### General Courses
 
