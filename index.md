@@ -6,7 +6,7 @@
 
 ### Agile
 
-- Agile Business Analysis
+- Agile Business Analysis - A collaborative approach to defining product features
 - Discovering Requirements
 
 ### Traditional
@@ -28,11 +28,11 @@
 
 ### General Courses
 
-- Software Testing
+- Software Testing - Techniques for improving software quality
 - Software Testing in the Real World
 
 ### Specialist Topics
-- [Testing Requirements - Essential Techniques for Agile and Waterfall teams](Testing%20Requirements)
+- [Testing Requirements - Essential techniques for Agile and Waterfall teams](Testing%20Requirements)
 
 - Software Testing Techniques for UAT and SIT
 - Risk Based Testing
