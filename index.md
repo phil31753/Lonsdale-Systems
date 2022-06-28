@@ -41,6 +41,6 @@
 - Test Case Design
 - Improve Your Test Cases
 - ~~Requirements Based Testing~~
-- Writing Test Plans
+- ~~Writing Test Plans~~ Preparing Testing Documentation - Standards, Templates ????? and For Software Testers
 
 Contact Phil at [Lonsdale Systems](mailto:phil@lonsdalesystems.com) for more detail about any of the courses.
