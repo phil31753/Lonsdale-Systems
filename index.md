@@ -1,4 +1,4 @@
-# ![Lonsdale Systems Logo](http://lonsdalesystems.com/site/img/logo.gif){style="border: 0px solid ; width: 245px; height: 53px;"}
+# ![Lonsdale Systems Logo](http://lonsdalesystems.com/site/img/logo.gif)
 
 # Course Outlines
 
