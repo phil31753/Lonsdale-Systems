@@ -19,7 +19,8 @@
 
 ### Supporting Skills
 
-- Introduction to Scrum
+- ~~Introduction to Scrum~~
+- Scrum and Agile Practices
 - Information Gathering Techniques
 - ~~Sparx Systems [Enterprise Architect for Business Analysts~~
 
@@ -39,7 +40,7 @@
 - Test Automation Reference Model
 - Test Case Design
 - Improve Your Test Cases
-- Requirements Based Testing
+~~- Requirements Based Testing~~
 - Writing Test Plans
 
 Contact Phil at [Lonsdale Systems](mailto:phil@lonsdalesystems.com) for more detail about any of the courses.
