@@ -1,5 +1,3 @@
-# ![Lonsdale Systems Logo](http://lonsdalesystems.com/site/img/logo.gif)
-
 # Course Outlines
 
 ## Business Analysis and Requirements Courses
