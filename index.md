@@ -19,7 +19,8 @@
 
 - ~~Introduction to Scrum~~
 - Scrum and Agile Practices
-- Information Gathering Techniques
+- Information Gathering For Business Analysis
+- Sucess With Retrospectives
 - ~~Sparx Systems [Enterprise Architect for Business Analysts~~
 
 ## Software Testing Courses 
@@ -31,10 +32,9 @@
 
 ### Specialist Topics
 - [Testing Requirements - Essential techniques for Agile and Waterfall teams](Testing%20Requirements)
-
 - Software Testing Techniques for UAT and SIT
 - Risk Based Testing
-- ~~Concepts of Automated Testing~~
+- Concepts of Automated Testing
 - Test Automation Reference Model
 - Test Case Design
 - Improve Your Test Cases
