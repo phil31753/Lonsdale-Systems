@@ -19,7 +19,7 @@
 
 - ~~Introduction to Scrum~~
 - Scrum and Agile Practices
-- [Information Gathering For Business Analysis](Information%20Gathering%20for%20Business%20Analysis)
+- [Information Gathering For Business Analysis](Information%20Gathering%20for%20Business%20Analysis.md)
 - Sucess With Retrospectives
 - ~~Sparx Systems [Enterprise Architect for Business Analysts~~
 
@@ -31,7 +31,7 @@
 - Software Testing in the Real World
 
 ### Specialist Topics
-- [Testing Requirements - Essential Techniques for Agile and Waterfall Teams](Testing%20Requirements)
+- [Testing Requirements - Essential Techniques for Agile and Waterfall Teams](Testing%20Requirements.md)
 - Software Testing Techniques for UAT and SIT
 - Risk Based Testing
 - Concepts of Automated Testing
