@@ -19,7 +19,7 @@
 
 - ~~Introduction to Scrum~~
 - Scrum and Agile Practices
-- [Information Gathering For Business Analysis](Information Gathering for Business Analysis)
+- [Information Gathering For Business Analysis](Information%20Gathering%20for%20Business%20Analysis)
 - Sucess With Retrospectives
 - ~~Sparx Systems [Enterprise Architect for Business Analysts~~
 
