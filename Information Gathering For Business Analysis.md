@@ -2,6 +2,9 @@
 
 ## Techniques for Remote and Hybrid Teams
 
+[ [Download MS Word](https://github.com/phil31753/lonsdalesystems/raw/main/Information%20Gathering%20for%20Business%20Analysis.docx) ]
+
+
 ## Course Overview
 
 The world has changed! It is increasingly difficult for Business Analysts to gather information using the tried and tested approach of face-to-face interviews. Even when organisations adopt a hybrid approach to work, it's not easy to get everyone in the office at the same time to conduct workshops. The solution for many, has been to "muddle" through poorly planned remote sessions lacking staff engagement and failing to be inclusive.
