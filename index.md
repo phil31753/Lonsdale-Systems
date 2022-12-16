@@ -19,7 +19,7 @@
 
 - ~~Introduction to Scrum~~
 - Scrum and Agile Practices
-- [Information Gathering For Business Analysis - Techniques for Remote and Hybrid Teams](Information%20Gathering%20for%20Business%20Analysis)
+- [Information Gathering For Business Analysis - Techniques for Remote and Hybrid Teams](Information%20Gathering%20For%20Business%20Analysis)
 - Sucess With Retrospectives
 - ~~Sparx Systems [Enterprise Architect for Business Analysts~~
 
