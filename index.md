@@ -2,7 +2,7 @@
 
 ## Business Analysis and Requirements Courses
 
-### Agile
+### Agilex
 
 - Agile Business Analysis - A collaborative approach to defining product features
 - Discovering Requirements
