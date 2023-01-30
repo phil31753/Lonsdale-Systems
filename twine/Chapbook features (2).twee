@@ -1,0 +1,257 @@
+:: StoryTitle
+Chapbook features
+
+
+:: StoryData
+{
+  "ifid": "2B25EB35-03EE-401E-92CF-94F38D7E6526",
+  "format": "Chapbook",
+  "format-version": "1.2.2",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+
+:: Display {"position":"775,650","size":"100,100"}
+recommendation: ''
+recommendation (taste>=4): 'Would you consider giving a recmmendation?'
+--
+
+ 
+The values you selected in the previous passage are:
+
+- {dogName}
+- {meal}
+- {taste}
+
+[if taste=='1']
+Why did it taste so bad? 
+[continue]
+
+[unless taste<='2']
+Glad you enjoyed your meal!
+[continue]
+
+[if meal=='Snack'; append]
+Snacking between meals is not good
+[else; append]
+Three square meals a day
+[continue]
+
+{recommendation}
+
+[[Start]]
+
+
+
+:: Embed {"position":"775,475","size":"100,100"}
+
+
+
+:: Fork 1 {"position":"750,75","size":"100,100"}
+
+
+
+:: Fork 2 {"position":"750,200","size":"100,100"}
+
+
+
+:: Image and Video {"position":"575,800","size":"100,100"}
+[if passage.visits==1]
+{embed image: 'DDD Life Cycle.png', alt: 'Life cyle .png'}
+[else]
+{embed image: 'DDD Life Cycle.svg', alt: 'Life cyle .svg'}
+[continue]
+
+
+{embed YouTube video: 'https://www.youtube.com/watch?v=LlOH0cb9xgA'}
+
+[[Start]]
+
+
+
+:: Insert {"position":"775,350","size":"100,100"}
+this is a passage that is inserted into another passage.
+
+Cool aye?
+
+
+:: Inserts {"position":"575,400","size":"100,100"}
+## Back link
+Follows the history stack back
+{back link, label: 'Go back'} or {restart link, label: 'Start again'}
+
+## Link to
+The following has the same effect as a wikilink but can include markdown
+
+{link to: 'Modifiers', label: 'Go back to *Modifiers*'}
+
+## Cycling link
+{cycling link for: 'meal', choices: ['Breakfast', 'Lunch', 'Dinner']}
+
+## Reveal link (text)
+I was driving home late one night when {reveal link: 'something odd occurred', text: 'I saw five deer staring at me from one side of the road, all in a line.'}
+
+## Reveal link (passage)
+I was driving home late one night when {reveal link: 'something odd occurred', passage: 'Insert'}
+
+## Embed passage
+{embed passage: 'Embed'}
+
+This is useful for merging narrative paths from differet passages
+
+
+:: Links and Forks {"position":"575,125","size":"100,100"}
+
+## Embedded link
+This is an embedded link [[return to start|Start]] so click on it
+
+## Forks
+
+>[[Fork 1]]
+
+>[[Fork 2]]
+
+
+
+
+:: Menus and cycling links {"position":"575,525","size":"100,100"}
+{dropdown menu for: 'meal', choices: ['Breakfast', 'Lunch', 'Dinner']}
+
+{cycling link for: 'meal', choices: ['Breakfast', 'Lunch', 'Dinner']}
+
+[[Start]]
+
+
+
+:: Modifiers {"position":"575,275","size":"100,100"}
+## Text alignment
+[align center]
+This is some centred text
+And so is this
+[continue]
+
+Back to normal text
+
+[align right]
+Now right
+[continue]
+And again back to normal
+
+## Delayed text
+[after 1 second]
+Boo!
+[continue]
+
+[note]
+I'm impressed that 'after' retains the vertical alignment
+
+Modifier can also be also be 'fixme' and 'todo'
+[continue]
+
+[[Next up is Inserts|Inserts]]
+[[Start]]
+
+
+
+:: Multiple Choice Test {"position":"225,650","size":"100,100"}
+### 1. Which elements are included in User Stories?
+
+   a) Actors, features and obligations  
+   
+   b) Actors, features and benefits
+   
+   c) Features, obligation, benefit
+    
+### The correct answer is {dropdown menu for: 'q1', choices: ['a', 'b', 'c']}
+  
+ 2.  Question 2
+ 
+ 
+ [[See your results|Results]]
+ 
+
+
+:: Results {"position":"225,825","size":"100,100"}
+score: 0
+score (q1=='b'): score +1
+--
+
+### 1. Which elements are included in User Stories?
+
+   a) Actors, features and obligations
+[if q1=="a"; append]
+☓
+[continue]
+
+   b) Actors, features and benefits
+[if q1=="b"; append]
+✓
+[continue]
+
+   c) Features, obligation, benefit
+[if q1=="c"; append]
+☓
+[continue]
+  
+### 2. Question 2
+
+### You had {score} correct answers
+ 
+ [[Start]]
+
+
+
+:: Start {"position":"225,475","size":"100,100"}
+[[Links and Forks]]
+
+[[Modifiers]]
+
+[[Inserts]]
+
+[[Menus and cycling links]]
+
+[[Variables]]
+
+[[Image and Video]]
+
+[[Multiple Choice Test]]
+
+
+:: Variables {"position":"575,650","size":"100,100"}
+dogName: 'Fido'
+meal: 'Snack'
+--
+
+The passage name is *{passage.name}* in the story *{story.name}*
+It's beem visitied **{passage.visits}**
+[if passage.visits==1; append]
+time
+[else;append]
+times
+[continue]
+
+[if random.coinFlip]
+Heads!
+[else]
+Tails!
+[continue]
+
+## Input
+What would you like to name your loyal canine companion?
+{text input for: 'dogName'}
+
+## Cycling menu
+Rate the tatste of your {cycling link for: 'meal', choices: ['Breakfast', 'Lunch', 'Dinner']} {dropdown menu for: 'taste', choices: ['1', '2', '3', '4', '5']}
+
+## Note
+Variables are evaluate donly once when the passage is enmtered this means that whatever is seletced above the value will be the initial values:
+
+- {dogName}
+- {meal}
+- {taste}
+
+In order to use the new values we must [[move to a new passage|Display]]
+
+[[Start]]
+
